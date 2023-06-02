@@ -1,0 +1,79 @@
+h1, h2{
+    margin: 2px;
+}
+body {
+    font-family: 'Geologica', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    background-image: url("images/station.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.container{
+    display: block;
+    margin: auto;
+    background-color: white;
+    padding: 15px;
+    border: 15px solid black;
+    border-radius: 25px;
+    width: 100vh;
+    height: 50vh;
+}
+
+#increment-btn {
+    color: black;
+    text-shadow: 1px 1px 2px white;
+    font-size: 25px;
+    background-color: aquamarine;
+    border: 4px solid black;
+    border-radius: 10px;
+}
+
+#increment-btn:hover{
+    color:aquamarine ;
+    background-color: black;
+}
+
+#save-btn {
+    color: black;
+    text-shadow: 1px 1px 2px white;
+    font-size: 25px;
+    background-color: greenyellow;
+    border: 4px solid black;
+    border-radius: 10px;
+}
+
+#save-btn:hover{
+    color:greenyellow ;
+    background-color: black;
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#save-el{
+    padding: 8px;
+    border-radius: 20px;
+    background-color: black;
+    text-shadow: 0 0 0;
+    color: white;
+}
+
+#increment-btn, #save-btn {
+    padding: 6px;
+    margin: 3px;
+}
